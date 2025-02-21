@@ -18,9 +18,9 @@ import uvicorn  # Import Uvicorn for running FastAPI
 
 # Load environment variables
 load_dotenv()
-IMGBB_API_KEY = "63808f510b020fab293a4ed09467f98f"
-GUARDIAN_API_KEY = "976b53ef-8f18-425c-be4b-ed32d6c9dc18"
-NEWS_API_KEY = "4d745446973641019efe835a83d28ee9"
+IMGBB_API_KEY = os.getenv("IMGBB_API_KEY")
+GUARDIAN_API_KEY = os.getenv("GUARDIAN_API_KEY")
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
 
 app = FastAPI()
