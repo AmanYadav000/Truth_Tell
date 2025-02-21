@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+transformers
+sentence-transformers
+spacy
+networkx
+requests
+matplotlib
+python-dotenv
+textstat
+beautifulsoup4
+torch
